@@ -56,9 +56,9 @@ doc_count = st.slider(
 
 if st.button("Search"):
     if not st.session_state["Pinecone_API_key"]:
-        st.error("Enter Pinecone API key first, babe!")
+        st.error("Enter Pinecone API key first!")
     elif not prompt.strip():
-        st.warning("Ask something first, don’t ghost me 😭")
+        st.warning("Ask something first😭")
     else:
         with st.spinner("Searching the AI archives..."):
             embedding = create_embeddings()
