@@ -2,3 +2,6 @@ langchain
 langchain_pinecone
 langchain_community
 streamlit
+sentence-transformers
+pinecone-client
+nest_asyncio
