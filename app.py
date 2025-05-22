@@ -1,7 +1,7 @@
 import streamlit as st
 from backend import *
 
-# Fix typo in key name
+
 if "Pinecone_API_key" not in st.session_state:
     st.session_state["Pinecone_API_key"] = ""
 
